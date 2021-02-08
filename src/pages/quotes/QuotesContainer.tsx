@@ -110,7 +110,7 @@ const QuotesContainer = createPaginationContainer(
   }
 );
 
-export default () => (
+const QuotesContainerQueryRenderer = () => (
   <QueryRenderer
     environment={environment}
     query={graphql`
@@ -139,3 +139,5 @@ export default () => (
     }}
   />
 );
+
+export default QuotesContainerQueryRenderer

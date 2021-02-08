@@ -6,7 +6,7 @@ List of Quotes with Authors implemented in React + Relay.
 
 ## How to run the project
 
-#### Installation
+### Installation
 
 ```shell
 yarn install
@@ -16,13 +16,13 @@ yarn install
 npm install
 ```
 
-#### Configuration
+### Configuration
 
 Create `src/config.ts` or rename `src/config.example.ts` and make sure it contains your server's graphql endpoint url:
 
 ```js
 export default {
-  graphql: 'http://localhost:3013/graphql',
+  graphql: 'http://localhost:3010/graphql',
 };
 ```
 
