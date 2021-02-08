@@ -1,3 +1,5 @@
-  export default {
-    graphql: 'http://localhost:3013/graphql',
-  };
+const config = {
+  graphql: 'http://localhost:3013/graphql',
+};
+
+export default config;
